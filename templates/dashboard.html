@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Trafficking Detection Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .notification {
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .table-container {
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        .highlight-drug {
+            background-color: rgba(239, 68, 68, 0.1);
+        }
+        .highlight-drug:hover {
+            background-color: rgba(239, 68, 68, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div class="w-64 bg-gray-800 text-white p-4">
+            <h1 class="text-xl font-bold mb-6">Monitoring Dashboard</h1>
+            <nav>
+                <ul class="space-y-2">
+                    <li><a href="#" class="block p-2 rounded hover:bg-gray-700">Overview</a></li>
+                    <li><a href="#alerts" class="block p-2 rounded hover:bg-gray-700">Alerts</a></li>
+                    <li><a href="#analytics" class="block p-2 rounded hover:bg-gray-700">Analytics</a></li>
+                    <li><a href="#data" class="block p-2 rounded hover:bg-gray-700">Raw Data</a></li>
+                </ul>
+            </nav>
+            <div class="mt-8 pt-4 border-t border-gray-700">
+                <div class="text-sm text-gray-400">Last Updated:</div>
+                <div id="last-updated" class="text-sm">{{ current_time }}</div>
+                <button onclick="location.reload()" class="mt-2 w-full bg-blue-600 hover:bg-blue-700 text-white py-1 px-3 rounded text-sm">
+                    Refresh Data
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-6">
+            <!-- Summary Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-gray-500">Total Messages</h3>
+                    <p class="text-2xl font-bold">{{ results|length }}</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-gray-500">Drug-Related</h3>
+                    <p class="text-2xl font-bold text-red-600">{{ drug_count }}</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-gray-500">Safe Content</h3>
+                    <p class="text-2xl font-bold text-green-600">{{ safe_count }}</p>
+                </div>
+            </div>
+
+            <!-- Alerts Section -->
+            <div id="alerts" class="mb-8">
+                <h2 class="text-xl font-semibold mb-4 flex items-center">
+                    <span class="bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2">{{ notifications|length }}</span>
+                    Recent Alerts
+                </h2>
+                {% if notifications %}
+                <div class="space-y-3">
+                    {% for alert in notifications %}
+                    <div class="notification bg-white p-4 rounded-lg shadow border-l-4 border-red-500">
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-semibold">{{ alert.user }}</span>
+                                <span class="text-gray-500 text-sm ml-2">{{ alert.timestamp }}</span>
+                            </div>
+                            <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Drug-Related</span>
+                        </div>
+                        <p class="mt-1">
+                            {% if alert.type == 'text' %}
+                                {{ alert.message|truncate(100) }}
+                            {% else %}
+                                <span class="text-gray-500">Image post detected</span>
+                            {% endif %}
+                        </p>
+                        {% if alert.type == 'photo' and alert.image_processed %}
+                        <div class="mt-2">
+                            <img src="{{ url_for('static', filename=alert.image_path) }}" 
+                                 class="h-20 rounded cursor-pointer" 
+                                 onerror="this.onerror=null; this.parentElement.innerHTML='<span class=text-gray-500>Image unavailable</span>'"
+                                 onclick="showImageModal('{{ url_for('static', filename=alert.image_path) }}')">
+                        </div>
+                        {% else %}
+                        <p class="text-gray-500">Image unavailable</p>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="bg-white p-8 text-center rounded-lg shadow">
+                    <p class="text-gray-500">No drug-related alerts in the last 24 hours</p>
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Analytics Section -->
+            <div id="analytics" class="mb-8">
+                <h2 class="text-xl font-semibold mb-4">Analytics</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Drug vs Safe Chart -->
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="font-medium mb-3">Content Classification</h3>
+                        <canvas id="classificationChart"></canvas>
+                    </div>
+                    
+                    <!-- Time Series Chart -->
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="font-medium mb-3">Drug-Related Posts Over Time</h3>
+                        <canvas id="timeSeriesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Table Section -->
+            <div id="data" class="mb-8">
+                <h2 class="text-xl font-semibold mb-4">Message Data</h2>
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex space-x-2">
+                        <select id="filter-type" class="border rounded px-3 py-1 text-sm">
+                            <option value="all">All Types</option>
+                            <option value="text">Text Only</option>
+                            <option value="photo">Images Only</option>
+                        </select>
+                        <select id="filter-class" class="border rounded px-3 py-1 text-sm">
+                            <option value="all">All Content</option>
+                            <option value="drug">Drug-Related</option>
+                            <option value="safe">Safe Content</option>
+                        </select>
+                        <button onclick="applyFilters()" class="bg-blue-600 text-white px-3 py-1 rounded text-sm">
+                            Apply Filters
+                        </button>
+                    </div>
+                    <div class="text-sm text-gray-500">
+                        Showing <span id="visible-count">{{ results|length }}</span> of {{ results|length }} messages
+                    </div>
+                </div>
+                
+                <div class="table-container bg-white rounded-lg shadow">
+                    <table class="w-full">
+                        <thead class="bg-gray-100 sticky top-0">
+                            <tr>
+                                <th class="p-3 text-left text-sm font-medium">Timestamp</th>
+                                <th class="p-3 text-left text-sm font-medium">User</th>
+                                <th class="p-3 text-left text-sm font-medium">Type</th>
+                                <th class="p-3 text-left text-sm font-medium">Content</th>
+                                <th class="p-3 text-left text-sm font-medium">Text Label</th>
+                                <th class="p-3 text-left text-sm font-medium">Image Label</th>
+                                <th class="p-3 text-left text-sm font-medium">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            {% for result in results %}
+                            <tr class="{% if result.text_label == 'drug-related' or result.image_label == 'drug-related' %}highlight-drug{% else %}hover:bg-gray-50{% endif %}" data-timestamp="{{ result.timestamp }}" data-user="{{ result.user }}">
+                                <td class="p-3 text-sm">{{ result.timestamp }}</td>
+                                <td class="p-3 text-sm font-medium">{{ result.user }}</td>
+                                <td class="p-3 text-sm">
+                                    <span class="px-2 py-1 rounded-full text-xs 
+                                        {% if result.type == 'text' %}bg-blue-100 text-blue-800
+                                        {% else %}bg-purple-100 text-purple-800{% endif %}">
+                                        {{ result.type }}
+                                    </span>
+                                </td>
+                                <td class="p-3 text-sm">
+                                    {% if result.type == 'text' %}
+                                        {{ result.message|truncate(50) }}
+                                    {% elif result.type == 'photo' and result.image_processed %}
+                                        <img src="{{ url_for('static', filename=result.image_path) }}" 
+                                             class="h-10 rounded cursor-pointer"
+                                             onerror="this.onerror=null; this.parentElement.innerHTML='<span class=text-gray-400>Image unavailable</span>'"
+                                             onclick="showImageModal('{{ url_for('static', filename=result.image_path) }}')">
+                                    {% else %}
+                                        <span class="text-gray-400">Image unavailable</span>
+                                    {% endif %}
+                                </td>
+                                <td class="p-3 text-sm">
+                                    <span class="px-2 py-1 rounded-full text-xs 
+                                        {% if result.text_label == 'drug-related' %}bg-red-100 text-red-800
+                                        {% elif result.text_label == 'safe' %}bg-green-100 text-green-800
+                                        {% else %}bg-gray-100 text-gray-800{% endif %}">
+                                        {{ result.text_label | default('N/A') }}
+                                    </span>
+                                </td>
+                                <td class="p-3 text-sm">
+                                    {% if result.type == 'photo' %}
+                                    <span class="px-2 py-1 rounded-full text-xs 
+                                        {% if result.image_label == 'drug-related' %}bg-red-100 text-red-800
+                                        {% elif result.image_label == 'safe' %}bg-green-100 text-green-800
+                                        {% else %}bg-yellow-100 text-yellow-800{% endif %}">
+                                        {{ result.image_label | default('N/A') }}
+                                    </span>
+                                    {% if result.image_label not in ['drug-related', 'safe', 'N/A', 'error'] %}
+                                    <script>console.log("Unexpected image_label: {{ result.image_label }} in entry {{ result | tojson | safe }}");</script>
+                                    {% endif %}
+                                    {% else %}
+                                    <span class="text-gray-400">N/A</span>
+                                    {% endif %}
+                                </td>
+                                <td class="p-3 text-sm">
+                                    {% if result.text_label == 'drug-related' or result.image_label == 'drug-related' %}
+                                        {% if result.action == 'banned' %}
+                                            <span class="text-red-600 font-semibold">Banned</span>
+                                        {% elif result.action == 'ignored' %}
+                                            <span class="text-gray-600 font-semibold">Ignored</span>
+                                        {% else %}
+                                            <button onclick="updateAction('{{ result.timestamp }}', '{{ result.user }}', 'banned')" class="bg-red-500 text-white px-2 py-1 rounded mr-2 hover:bg-red-600 text-xs">Ban</button>
+                                            <button onclick="updateAction('{{ result.timestamp }}', '{{ result.user }}', 'ignored')" class="bg-gray-500 text-white px-2 py-1 rounded hover:bg-gray-600 text-xs">Ignore</button>
+                                        {% endif %}
+                                    {% else %}
+                                        <span class="text-gray-400">N/A</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg max-w-4xl w-full p-4">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-lg font-medium">Image Preview</h3>
+                <button onclick="hideImageModal()" class="text-gray-500 hover:text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex justify-center">
+                <img id="modal-image" class="max-h-[70vh] max-w-full object-contain">
+            </div>
+            <div class="mt-4 flex justify-end space-x-2">
+                <a id="download-btn" href="#" download class="bg-blue-600 text-white px-4 py-2 rounded text-sm">Download</a>
+                <button onclick="hideImageModal()" class="bg-gray-200 text-gray-800 px-4 py-2 rounded text-sm">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize charts
+        document.addEventListener('DOMContentLoaded', function() {
+            // Classification Chart (Pie)
+            const classificationCtx = document.getElementById('classificationChart').getContext('2d');
+            new Chart(classificationCtx, {
+                type: 'pie',
+                data: {
+                    labels: ['Drug-Related', 'Safe Content'],
+                    datasets: [{
+                        data: [{{ drug_count }}, {{ safe_count }}],
+                        backgroundColor: ['#ef4444', '#10b981'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+
+            // Time Series Chart (Line)
+            const timeSeriesCtx = document.getElementById('timeSeriesChart').getContext('2d');
+            new Chart(timeSeriesCtx, {
+                type: 'line',
+                data: {
+                    labels: {{ dates|tojson }},
+                    datasets: [{
+                        label: 'Drug-Related Posts',
+                        data: {{ counts|tojson }},
+                        borderColor: '#ef4444',
+                        backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true }
+                    },
+                    plugins: {
+                        legend: { display: false }
+                    }
+                }
+            });
+        });
+
+        // Image modal functions
+        function showImageModal(src) {
+            const modal = document.getElementById('image-modal');
+            const img = document.getElementById('modal-image');
+            const downloadBtn = document.getElementById('download-btn');
+            
+            img.src = src;
+            downloadBtn.href = src;
+            downloadBtn.download = src.split('/').pop();
+            modal.classList.remove('hidden');
+        }
+
+        function hideImageModal() {
+            document.getElementById('image-modal').classList.add('hidden');
+        }
+
+        // Filter functions
+        function applyFilters() {
+            const typeFilter = document.getElementById('filter-type').value;
+            const classFilter = document.getElementById('filter-class').value;
+            const rows = document.querySelectorAll('tbody tr');
+            let visibleCount = 0;
+
+            rows.forEach(row => {
+                const type = row.querySelector('td:nth-child(3) span').textContent.toLowerCase();
+                const isDrugRelated = row.classList.contains('highlight-drug');
+                
+                const typeMatch = typeFilter === 'all' || 
+                                (typeFilter === 'text' && type === 'text') || 
+                                (typeFilter === 'photo' && type === 'photo');
+                
+                const classMatch = classFilter === 'all' || 
+                                 (classFilter === 'drug' && isDrugRelated) || 
+                                 (classFilter === 'safe' && !isDrugRelated);
+                
+                if (typeMatch && classMatch) {
+                    row.style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            // Update showing count
+            document.getElementById('visible-count').textContent = visibleCount;
+        }
+
+        // Update action (Ban or Ignore)
+        async function updateAction(timestamp, user, action) {
+            const response = await fetch('/update_action', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ timestamp, user, action }),
+            });
+            const result = await response.json();
+            if (result.status === 'success') {
+                const row = document.querySelector(`tr[data-timestamp="${timestamp}"][data-user="${user}"]`);
+                const actionCell = row.cells[row.cells.length - 1];
+                if (result.action === 'banned') {
+                    actionCell.innerHTML = '<span class="text-red-600 font-semibold">Banned</span>';
+                } else if (result.action === 'ignored') {
+                    actionCell.innerHTML = '<span class="text-gray-600 font-semibold">Ignored</span>';
+                }
+            }
+        }
+
+        // Auto-refresh every 5 minutes
+        setTimeout(() => {
+            location.reload();
+        }, 300000); // 300000ms = 5 minutes
+    </script>
+</body>
+</html>

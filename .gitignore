@@ -1,0 +1,28 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+virtualenv/
+
+# Logs
+*.log
+
+# Model weights (if not needed in repo)
+*.pkl
+*.h5
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Intermediate data files (if replaced)
+raw_data.json
+results.json
+
+# Sensitive files
+*.key
+*.secret

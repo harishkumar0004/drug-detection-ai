@@ -1,0 +1,946 @@
+[
+    {
+        "timestamp": "2025-05-19 08:38:08",
+        "user": "GroupAnonymousBot",
+        "message": "Opioids drugs for sale",
+        "type": "text",
+        "cleaned_message": "opioids drugs for sale",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:38:14",
+        "user": "GroupAnonymousBot",
+        "message": "Oh Ok",
+        "type": "text",
+        "cleaned_message": "oh ok",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:39:49",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_083949.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:39:59",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_083959.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:40:14",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084014.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:41:20",
+        "user": "GroupAnonymousBot",
+        "message": "Looking to buy oxy or percs, DM if available.",
+        "type": "text",
+        "cleaned_message": "looking to buy oxy or percs, dm if available.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:41:42",
+        "user": "GroupAnonymousBot",
+        "message": "Anyone selling Adderall? Need 30mg tabs, urgent.",
+        "type": "text",
+        "cleaned_message": "anyone selling adderall? need 30mg tabs, urgent.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:41:49",
+        "user": "GroupAnonymousBot",
+        "message": "Who got that good stuff? Hit me up with prices.",
+        "type": "text",
+        "cleaned_message": "who got that good stuff? hit me up with prices.",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:41:57",
+        "user": "GroupAnonymousBot",
+        "message": "Need painkillers, preferably Vicodin. Any legit plug here?",
+        "type": "text",
+        "cleaned_message": "need painkillers, preferably vicodin. any legit plug here?",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:06",
+        "user": "GroupAnonymousBot",
+        "message": "Searching for Molly in Bangalore. Pls DM.",
+        "type": "text",
+        "cleaned_message": "searching for molly in bangalore. pls dm.",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:13",
+        "user": "GroupAnonymousBot",
+        "message": "Selling Xanax bars, 2mg, discreet shipping.",
+        "type": "text",
+        "cleaned_message": "selling xanax bars, 2mg, discreet shipping.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:24",
+        "user": "GroupAnonymousBot",
+        "message": "Got LSD, MDMA, and ketamine. Prices vary, bulk deals available.",
+        "type": "text",
+        "cleaned_message": "got lsd, mdma, and ketamine. prices vary, bulk deals available.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:31",
+        "user": "GroupAnonymousBot",
+        "message": "🔥 New batch just in: White China #Heroin #NoCut",
+        "type": "text",
+        "cleaned_message": "new batch just in: white china",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:42",
+        "user": "GroupAnonymousBot",
+        "message": "Premium cocaine, 95% pure. DM for samples and rates.",
+        "type": "text",
+        "cleaned_message": "premium cocaine, 95% pure. dm for samples and rates.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:42:49",
+        "user": "GroupAnonymousBot",
+        "message": "Weed strains: OG Kush, Blue Dream, Gorilla Glue – all available.",
+        "type": "text",
+        "cleaned_message": "weed strains: og kush, blue dream, gorilla glue  all available.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:43:06",
+        "user": "GroupAnonymousBot",
+        "message": "⚡️ Fast delivery! Pain meds, party pills & more. Trusted vendor.",
+        "type": "text",
+        "cleaned_message": "fast delivery! pain meds, party pills & more. trusted vendor.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:43:15",
+        "user": "GroupAnonymousBot",
+        "message": "DM for menu 📋 - Edibles, Shrooms, DMT, and more. All legit.",
+        "type": "text",
+        "cleaned_message": "dm for menu  - edibles, shrooms, dmt, and more. all legit.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:43:27",
+        "user": "GroupAnonymousBot",
+        "message": "Telegram bot live now! Order drugs anonymously 24/7.",
+        "type": "text",
+        "cleaned_message": "telegram bot live now! order drugs anonymously 24/7.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:43:41",
+        "user": "GroupAnonymousBot",
+        "message": "Looking for high-quality hash in Mumbai? We got you",
+        "type": "text",
+        "cleaned_message": "looking for high-quality hash in mumbai? we got you",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:43:53",
+        "user": "GroupAnonymousBot",
+        "message": "Weekly deals on Benzos. Wholesale also available.",
+        "type": "text",
+        "cleaned_message": "weekly deals on benzos. wholesale also available.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:44:44",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084444.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:44:51",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084451.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:23",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084523.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:41",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084541.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:56",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084556.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:46:40",
+        "user": "GroupAnonymousBot",
+        "image_path": "telegram_images/GroupAnonymousBot_20250519_084640.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:36",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102336.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:37",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102337.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:38",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102338.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:39",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102339.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:40",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102340.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:41",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102341.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:42",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102342.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:44",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102344.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:47",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102347.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:49",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102349.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:50",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102350.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:51",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102351.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:52",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102352.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:53",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102353.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:23:56",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102356.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:04",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102404.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:05",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102405.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:06",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102406.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:07",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102407.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:08",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102408.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:09",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102409.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:10",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102410.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:11",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102411.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:12",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102412.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:13",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102413.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:16",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102416.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:17",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102417.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:18",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102418.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:22",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102422.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:23",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102423.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:25",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102425.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:35",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102435.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:36",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102436.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:37",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102437.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:24:39",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102439.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:27",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102627.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:28",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102628.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:30",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102630.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:31",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102631.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:32",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102632.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:33",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102633.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:34",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102634.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:43",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102643.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:45",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102645.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:46",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102646.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:47",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102647.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:49",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102649.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:50",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102650.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:51",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102651.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:26:53",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102653.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:27:01",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102701.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:27:02",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102702.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:27:03",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102703.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 10:27:04",
+        "user": "Maddy",
+        "image_path": "telegram_images/Maddy_20250519_102704.jpg",
+        "type": "photo",
+        "image_processed": true,
+        "image_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 07:42:28",
+        "user": "Maddy",
+        "message": "Hey buddy",
+        "type": "text",
+        "cleaned_message": "hey buddy",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 07:45:03",
+        "user": "Maddy",
+        "message": "Sample Text (Drug Trafficking Content Simulation – Educational/Research Use Only)\nTitle: Hidden Channels of Online Drug Trade\nThe digital age has significantly transformed how illicit drugs are distributed and sold. Traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. Social media platforms such as Instagram, Telegram, WhatsApp, and even Facebook are often exploited by drug traffickers to reach potential customers.\nMany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. For example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" Cocaine may be referred to using snowflake emojis, and MDMA is sometimes labeled as “Molly” or “beans.” In Telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\nA typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.\nOn the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nTo protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nAuthorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.\nIn conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. Understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. Through AI-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nLet me know if you'd like this formatted as a JSON or CSV sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\n4o\nIs this conversation helpful so far?",
+        "type": "text",
+        "cleaned_message": "sample text (drug trafficking content simulation – educational/research use only)\ntitle: hidden channels of online drug trade\nthe digital age has significantly transformed how illicit drugs are distributed and sold. traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. social media platforms such as instagram, telegram, whatsapp, and even facebook are often exploited by drug traffickers to reach potential customers.\nmany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. for example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" cocaine may be referred to using snowflake emojis, and mdma is sometimes labeled as “molly” or “beans.” in telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\na typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.\non the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nto protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nauthorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.\nin conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. through ai-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nlet me know if you'd like this formatted as a json or csv sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\n4o\nis this conversation helpful so far?",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:45:36",
+        "user": "Maddy",
+        "message": "typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.",
+        "type": "text",
+        "cleaned_message": "typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:45:46",
+        "user": "Maddy",
+        "message": "On the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.",
+        "type": "text",
+        "cleaned_message": "on the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:46:01",
+        "user": "Maddy",
+        "message": "To protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.",
+        "type": "text",
+        "cleaned_message": "to protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:46:11",
+        "user": "Maddy",
+        "message": "Authorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "type": "text",
+        "cleaned_message": "authorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:46:21",
+        "user": "Maddy",
+        "message": "In conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. Understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. Through AI-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.",
+        "type": "text",
+        "cleaned_message": "in conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. through ai-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:47:31",
+        "user": "Maddy",
+        "message": "These are synthetic examples based on real-world trafficking lingo. You can use such data to train or test NLP models for:\nKeyword-based filtering\nEmoji or codeword detection\nBehavioral pattern analysis\nGraph-based channel tracking",
+        "type": "text",
+        "cleaned_message": "these are synthetic examples based on real-world trafficking lingo. you can use such data to train or test nlp models for:\nkeyword-based filtering\nemoji or codeword detection\nbehavioral pattern analysis\ngraph-based channel tracking",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:47:58",
+        "user": "Maddy",
+        "message": "ChatGPT\nYou said:\nHey chatgpt\nChatGPT said:\nHey Madhan! How can I help you today?\nYou said:\nI have drug and and I text related to drug channel\nChatGPT said:\nGot it. Could you please clarify what exactly you mean by:\n“I have drug and…” – do you mean you have drug-related data, drug names, or drug content?\n“Text related to drug channel” – is this a chat conversation, social media post, or something else?\nIf you can share the text or a sample, I can help you analyze, summarize, or detect drug-related patterns based on your project: AI-Powered Detection and Tracking of Online Drug Trafficking Networks.\nYou said:\nGive drug\nChatGPT said:\nCould you please clarify what you mean by \"Give drug\"? Are you:\nAsking for example names of drugs (e.g., for your project)?\nLooking for sample text or data related to drug trafficking channels?\nReferring to legal or illegal drugs?\nNeeding a dataset or dummy data for testing your model?\nLet me know, and I’ll help accordingly.\nYou said:\nContent in 500 words\nChatGPT said:\nHere’s a 500-word sample content related to drug trafficking channels. This can be used for analysis, dataset creation, or training models in your project: AI-Powered Detection and Tracking of Online Drug Trafficking Networks.\nSample Text (Drug Trafficking Content Simulation – Educational/Research Use Only)\nTitle: Hidden Channels of Online Drug Trade\nThe digital age has significantly transformed how illicit drugs are distributed and sold. Traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. Social media platforms such as Instagram, Telegram, WhatsApp, and even Facebook are often exploited by drug traffickers to reach potential customers.\nMany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. For example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" Cocaine may be referred to using snowflake emojis, and MDMA is sometimes labeled as “Molly” or “beans.” In Telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\nA typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.\nOn the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nTo protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nAuthorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "type": "text",
+        "cleaned_message": "chatgpt\nyou said:\nhey chatgpt\nchatgpt said:\nhey madhan! how can i help you today?\nyou said:\ni have drug and and i text related to drug channel\nchatgpt said:\ngot it. could you please clarify what exactly you mean by:\n“i have drug and…” – do you mean you have drug-related data, drug names, or drug content?\n“text related to drug channel” – is this a chat conversation, social media post, or something else?\nif you can share the text or a sample, i can help you analyze, summarize, or detect drug-related patterns based on your project: ai-powered detection and tracking of online drug trafficking networks.\nyou said:\ngive drug\nchatgpt said:\ncould you please clarify what you mean by \"give drug\"? are you:\nasking for example names of drugs (e.g., for your project)?\nlooking for sample text or data related to drug trafficking channels?\nreferring to legal or illegal drugs?\nneeding a dataset or dummy data for testing your model?\nlet me know, and i’ll help accordingly.\nyou said:\ncontent in 500 words\nchatgpt said:\nhere’s a 500-word sample content related to drug trafficking channels. this can be used for analysis, dataset creation, or training models in your project: ai-powered detection and tracking of online drug trafficking networks.\nsample text (drug trafficking content simulation – educational/research use only)\ntitle: hidden channels of online drug trade\nthe digital age has significantly transformed how illicit drugs are distributed and sold. traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. social media platforms such as instagram, telegram, whatsapp, and even facebook are often exploited by drug traffickers to reach potential customers.\nmany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. for example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" cocaine may be referred to using snowflake emojis, and mdma is sometimes labeled as “molly” or “beans.” in telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\na typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.\non the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nto protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nauthorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:47:58",
+        "user": "Maddy",
+        "message": "In conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. Understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. Through AI-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nLet me know if you'd like this formatted as a JSON or CSV sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\nYou said:\nGive the content of drug\nChatGPT said:\nThanks for your clarification. Since you're working on the detection and tracking of online drug trafficking networks, here is sample content that mimics how drugs are promoted or sold in online channels — purely for educational and research purposes (not real, not to be used illegally):\nSimulated Drug-Related Content for Research (Educational Use Only)\nTelegram Channel Post Example:\n@FastHighStore\nWelcome to the #1 Plug in town!\nFresh stock just arrived:\nGreen Apple (Weed) – 1g for ₹800, 5g for ₹3500\nSnow (Cocaine) – ₹6000 per g – top quality from Colombia\nXTC (Ecstasy pills) – ₹900/pill – assorted colors\nWhite Rhino (MDMA Crystal) – ₹5500/g – Pure 98%\nOffers:\nBuy 5g and get 1g free!\nDiscreet packaging | Delivery in 2-3 hrs | Bitcoin & Paytm accepted\nDM to place order – Strictly 18+\n#NoScam #RealPlug #MumbaiHighs #SmokeLife",
+        "type": "text",
+        "cleaned_message": "in conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. through ai-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nlet me know if you'd like this formatted as a json or csv sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\nyou said:\ngive the content of drug\nchatgpt said:\nthanks for your clarification. since you're working on the detection and tracking of online drug trafficking networks, here is sample content that mimics how drugs are promoted or sold in online channels — purely for educational and research purposes (not real, not to be used illegally):\nsimulated drug-related content for research (educational use only)\ntelegram channel post example:\n@fasthighstore\nwelcome to the #1 plug in town!\nfresh stock just arrived:\ngreen apple (weed) – 1g for ₹800, 5g for ₹3500\nsnow (cocaine) – ₹6000 per g – top quality from colombia\nxtc (ecstasy pills) – ₹900/pill – assorted colors\nwhite rhino (mdma crystal) – ₹5500/g – pure 98%\noffers:\nbuy 5g and get 1g free!\ndiscreet packaging | delivery in 2-3 hrs | bitcoin & paytm accepted\ndm to place order – strictly 18+\n#noscam #realplug #mumbaihighs #smokelife",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:49:27",
+        "user": "Maddy",
+        "message": "Evasion Techniques by Traffickers\nTraffickers constantly change slang, emojis, and hashtags.\nAI models may fail to detect new or obfuscated terms (e.g., “gummy bears” for edibles).\nUse of images/memes instead of plain text can bypass basic NLP filters.\n2. Data Privacy and Ethical Concerns\nScraping data from social media can raise privacy and legal issues.\nAI systems may unintentionally collect personal conversations of innocent users.\nOver-monitoring can lead to concerns about freedom of expression.",
+        "type": "text",
+        "cleaned_message": "evasion techniques by traffickers\ntraffickers constantly change slang, emojis, and hashtags.\nai models may fail to detect new or obfuscated terms (e.g., “gummy bears” for edibles).\nuse of images/memes instead of plain text can bypass basic nlp filters.\n2. data privacy and ethical concerns\nscraping data from social media can raise privacy and legal issues.\nai systems may unintentionally collect personal conversations of innocent users.\nover-monitoring can lead to concerns about freedom of expression.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:51:14",
+        "user": "Maddy",
+        "message": "False Positives & Negatives\nAI may flag innocent users (false positives), affecting their accounts.\nIt may also miss real traffickers (false negatives) due to clever disguises.\nThis reduces the trust and accuracy of the system.\n4. Platform Limitations\nMany platforms restrict API access or encrypt chats (e.g., Telegram, WhatsApp).\nAI cannot analyze private messages unless there is legal permission or backend access.",
+        "type": "text",
+        "cleaned_message": "false positives & negatives\nai may flag innocent users (false positives), affecting their accounts.\nit may also miss real traffickers (false negatives) due to clever disguises.\nthis reduces the trust and accuracy of the system.\n4. platform limitations\nmany platforms restrict api access or encrypt chats (e.g., telegram, whatsapp).\nai cannot analyze private messages unless there is legal permission or backend access.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:51:36",
+        "user": "Maddy",
+        "message": "Resource Intensive\nRequires continuous training, updating slang databases, and manual validation.\nHigh-quality models need large datasets and computing power.\n6. Adversarial Attacks\nCriminals can exploit AI weaknesses, like adding noise to images or slightly changing text to fool detection systems.",
+        "type": "text",
+        "cleaned_message": "resource intensive\nrequires continuous training, updating slang databases, and manual validation.\nhigh-quality models need large datasets and computing power.\n6. adversarial attacks\ncriminals can exploit ai weaknesses, like adding noise to images or slightly changing text to fool detection systems.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 07:52:06",
+        "user": "Maddy",
+        "message": "Language and Regional Variations\nTraffickers use local languages, dialects, or mixed-language slang (e.g., Hinglish, Tanglish).\nAI models trained in English may fail to detect regional drug communication patterns unless multilingual NLP is implemented.",
+        "type": "text",
+        "cleaned_message": "language and regional variations\ntraffickers use local languages, dialects, or mixed-language slang (e.g., hinglish, tanglish).\nai models trained in english may fail to detect regional drug communication patterns unless multilingual nlp is implemented.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:17",
+        "user": "GroupAnonymousBot",
+        "message": "Get your high now! Pure cocaine available 💉",
+        "type": "text",
+        "cleaned_message": "get your high now! pure cocaine available 💉",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:23",
+        "user": "GroupAnonymousBot",
+        "message": "Selling MDMA, LSD, and weed – discreet shipping 🌍",
+        "type": "text",
+        "cleaned_message": "selling mdma, lsd, and weed – discreet shipping 🌍",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:30",
+        "user": "GroupAnonymousBot",
+        "message": "Buy crystal meth – 99% purity – DM for price 📩",
+        "type": "text",
+        "cleaned_message": "buy crystal meth – 99% purity – dm for price 📩",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:37",
+        "user": "GroupAnonymousBot",
+        "message": "Pills, powder, tabs – all kinds available – worldwide delivery 🌐",
+        "type": "text",
+        "cleaned_message": "pills, powder, tabs – all kinds available – worldwide delivery 🌐",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:43",
+        "user": "GroupAnonymousBot",
+        "message": "Snow, Molly, and Green 🍃 available – trusted plug 🔌",
+        "type": "text",
+        "cleaned_message": "snow, molly, and green 🍃 available – trusted plug 🔌",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:48",
+        "user": "GroupAnonymousBot",
+        "message": "Need party favors? Hit me up 🥳",
+        "type": "text",
+        "cleaned_message": "need party favors? hit me up 🥳",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:29:55",
+        "user": "GroupAnonymousBot",
+        "message": "White girl, Lucy, and kush in stock 🚀",
+        "type": "text",
+        "cleaned_message": "white girl, lucy, and kush in stock 🚀",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:03",
+        "user": "GroupAnonymousBot",
+        "message": "Special candy for your weekend 🧁 – text me",
+        "type": "text",
+        "cleaned_message": "special candy for your weekend 🧁 – text me",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:09",
+        "user": "GroupAnonymousBot",
+        "message": "Xans, addy, rolls – cheap & stealth 🚚",
+        "type": "text",
+        "cleaned_message": "xans, addy, rolls – cheap & stealth 🚚",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:17",
+        "user": "GroupAnonymousBot",
+        "message": "💊 Order now via Telegram: @fastplug_bot",
+        "type": "text",
+        "cleaned_message": "💊 order now via telegram: @fastplug_bot",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:22",
+        "user": "GroupAnonymousBot",
+        "message": "Check our menu: @drugsupplier999",
+        "type": "text",
+        "cleaned_message": "check our menu: @drugsupplier999",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:28",
+        "user": "GroupAnonymousBot",
+        "message": "Anonymous payments via crypto 🪙",
+        "type": "text",
+        "cleaned_message": "anonymous payments via crypto 🪙",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:39",
+        "user": "GroupAnonymousBot",
+        "message": "Linktree updated – new stock weekly 🧾",
+        "type": "text",
+        "cleaned_message": "linktree updated – new stock weekly 🧾",
+        "text_label": "safe"
+    },
+    {
+        "timestamp": "2025-05-19 08:30:47",
+        "user": "GroupAnonymousBot",
+        "message": "#plug #buyweed #mollyforsale #420 #lsdtrip #cokeplug #xanaxshop #drugmarket #dmforsupply",
+        "type": "text",
+        "cleaned_message": "#plug #buyweed #mollyforsale #420 #lsdtrip #cokeplug #xanaxshop #drugmarket #dmforsupply",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:31:23",
+        "user": "Maddy",
+        "message": "Drug trafficking refers to the illegal trade, distribution, and sale of substances classified as drugs, often controlled by law enforcement worldwide. These substances include narcotics like heroin, cocaine, methamphetamine, synthetic drugs, and prescription medications when misused or sold illegally.",
+        "type": "text",
+        "cleaned_message": "drug trafficking refers to the illegal trade, distribution, and sale of substances classified as drugs, often controlled by law enforcement worldwide. these substances include narcotics like heroin, cocaine, methamphetamine, synthetic drugs, and prescription medications when misused or sold illegally.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:31:35",
+        "user": "Maddy",
+        "message": "Types of Drugs Commonly Trafficked Online\nNarcotics: Heroin, morphine, opium\nStimulants: Cocaine, methamphetamine, amphetamines\nDepressants: Benzodiazepines, barbiturates\nSynthetic drugs: MDMA (ecstasy), synthetic cannabinoids, fentanyl analogs\nPrescription drugs: Oxycodone, hydrocodone, and other opioids sold without prescriptions",
+        "type": "text",
+        "cleaned_message": "types of drugs commonly trafficked online\nnarcotics: heroin, morphine, opium\nstimulants: cocaine, methamphetamine, amphetamines\ndepressants: benzodiazepines, barbiturates\nsynthetic drugs: mdma (ecstasy), synthetic cannabinoids, fentanyl analogs\nprescription drugs: oxycodone, hydrocodone, and other opioids sold without prescriptions",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "Sample Text (Drug Trafficking Content Simulation – Educational/Research Use Only)\nTitle: Hidden Channels of Online Drug Trade\nThe digital age has significantly transformed how illicit drugs are distributed and sold. Traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. Social media platforms such as Instagram, Telegram, WhatsApp, and even Facebook are often exploited by drug traffickers to reach potential customers.\nMany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. For example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" Cocaine may be referred to using snowflake emojis, and MDMA is sometimes labeled as “Molly” or “beans.” In Telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\nA typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.\nOn the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nTo protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nAuthorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.\nIn conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. Understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. Through AI-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nLet me know if you'd like this formatted as a JSON or CSV sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\n4o\nIs this conversation helpful so far?",
+        "type": "text",
+        "cleaned_message": "sample text (drug trafficking content simulation – educational/research use only)\ntitle: hidden channels of online drug trade\nthe digital age has significantly transformed how illicit drugs are distributed and sold. traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. social media platforms such as instagram, telegram, whatsapp, and even facebook are often exploited by drug traffickers to reach potential customers.\nmany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. for example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" cocaine may be referred to using snowflake emojis, and mdma is sometimes labeled as “molly” or “beans.” in telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\na typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.\non the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nto protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nauthorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.\nin conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. through ai-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.\nlet me know if you'd like this formatted as a json or csv sample for dataset training, or if you want similar content for multi-language detection, image captioning, or chat-based trafficking behavior.\n4o\nis this conversation helpful so far?",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.",
+        "type": "text",
+        "cleaned_message": "typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "On the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.",
+        "type": "text",
+        "cleaned_message": "on the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "To protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.",
+        "type": "text",
+        "cleaned_message": "to protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "Authorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "type": "text",
+        "cleaned_message": "authorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "In conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. Understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. Through AI-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.",
+        "type": "text",
+        "cleaned_message": "in conclusion, the online drug trade is a fast-evolving ecosystem fueled by technology and secrecy. understanding the communication patterns, transaction methods, and operational tactics of these digital drug trafficking channels is crucial for building effective countermeasures. through ai-powered detection and analysis, it is possible to identify suspicious behavior and disrupt illegal operations before they cause more harm to society.",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "These are synthetic examples based on real-world trafficking lingo. You can use such data to train or test NLP models for:\nKeyword-based filtering\nEmoji or codeword detection\nBehavioral pattern analysis\nGraph-based channel tracking",
+        "type": "text",
+        "cleaned_message": "these are synthetic examples based on real-world trafficking lingo. you can use such data to train or test nlp models for:\nkeyword-based filtering\nemoji or codeword detection\nbehavioral pattern analysis\ngraph-based channel tracking",
+        "text_label": "drug-related"
+    },
+    {
+        "timestamp": "2025-05-19 08:45:38",
+        "user": "GroupAnonymousBot",
+        "message": "ChatGPT\nYou said:\nHey chatgpt\nChatGPT said:\nHey Madhan! How can I help you today?\nYou said:\nI have drug and and I text related to drug channel\nChatGPT said:\nGot it. Could you please clarify what exactly you mean by:\n“I have drug and…” – do you mean you have drug-related data, drug names, or drug content?\n“Text related to drug channel” – is this a chat conversation, social media post, or something else?\nIf you can share the text or a sample, I can help you analyze, summarize, or detect drug-related patterns based on your project: AI-Powered Detection and Tracking of Online Drug Trafficking Networks.\nYou said:\nGive drug\nChatGPT said:\nCould you please clarify what you mean by \"Give drug\"? Are you:\nAsking for example names of drugs (e.g., for your project)?\nLooking for sample text or data related to drug trafficking channels?\nReferring to legal or illegal drugs?\nNeeding a dataset or dummy data for testing your model?\nLet me know, and I’ll help accordingly.\nYou said:\nContent in 500 words\nChatGPT said:\nHere’s a 500-word sample content related to drug trafficking channels. This can be used for analysis, dataset creation, or training models in your project: AI-Powered Detection and Tracking of Online Drug Trafficking Networks.\nSample Text (Drug Trafficking Content Simulation – Educational/Research Use Only)\nTitle: Hidden Channels of Online Drug Trade\nThe digital age has significantly transformed how illicit drugs are distributed and sold. Traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. Social media platforms such as Instagram, Telegram, WhatsApp, and even Facebook are often exploited by drug traffickers to reach potential customers.\nMany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. For example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" Cocaine may be referred to using snowflake emojis, and MDMA is sometimes labeled as “Molly” or “beans.” In Telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\nA typical drug channel on Telegram might include a pinned message stating, “Top quality green, white, and X – fast and safe delivery. BTC/USDT accepted. DM to order.” The channel may have a large number of subscribers, indicating the scale of its operations. Sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. Some even provide tracking numbers or customer support to build credibility.\nOn the dark web, marketplaces like Hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. These platforms are hidden behind layers of encryption and require Tor browsers to access. Vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nTo protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. Many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. Communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nAuthorities use various strategies to identify and dismantle these networks, including AI-based monitoring tools, keyword tracking, image recognition, and undercover operations. However, the adaptability of traffickers poses a constant challenge. New slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "type": "text",
+        "cleaned_message": "chatgpt\nyou said:\nhey chatgpt\nchatgpt said:\nhey madhan! how can i help you today?\nyou said:\ni have drug and and i text related to drug channel\nchatgpt said:\ngot it. could you please clarify what exactly you mean by:\n“i have drug and…” – do you mean you have drug-related data, drug names, or drug content?\n“text related to drug channel” – is this a chat conversation, social media post, or something else?\nif you can share the text or a sample, i can help you analyze, summarize, or detect drug-related patterns based on your project: ai-powered detection and tracking of online drug trafficking networks.\nyou said:\ngive drug\nchatgpt said:\ncould you please clarify what you mean by \"give drug\"? are you:\nasking for example names of drugs (e.g., for your project)?\nlooking for sample text or data related to drug trafficking channels?\nreferring to legal or illegal drugs?\nneeding a dataset or dummy data for testing your model?\nlet me know, and i’ll help accordingly.\nyou said:\ncontent in 500 words\nchatgpt said:\nhere’s a 500-word sample content related to drug trafficking channels. this can be used for analysis, dataset creation, or training models in your project: ai-powered detection and tracking of online drug trafficking networks.\nsample text (drug trafficking content simulation – educational/research use only)\ntitle: hidden channels of online drug trade\nthe digital age has significantly transformed how illicit drugs are distributed and sold. traditional street-level dealing has largely moved into encrypted online platforms, private messaging groups, and social media channels, making it increasingly difficult for law enforcement agencies to trace and dismantle these networks. social media platforms such as instagram, telegram, whatsapp, and even facebook are often exploited by drug traffickers to reach potential customers.\nmany of these operations use code language, emojis, and slang to bypass content moderation and evade detection. for example, cannabis is often referred to with leaf emojis or terms like \"green,\" \"herb,\" or \"loud.\" cocaine may be referred to using snowflake emojis, and mdma is sometimes labeled as “molly” or “beans.” in telegram groups, sellers frequently post menus of available substances, including prices, quantity, delivery methods, and payment options like cryptocurrency for added anonymity.\na typical drug channel on telegram might include a pinned message stating, “top quality green, white, and x – fast and safe delivery. btc/usdt accepted. dm to order.” the channel may have a large number of subscribers, indicating the scale of its operations. sellers often advertise with photos of the drugs, fake testimonials, and special “limited time” offers to attract buyers. some even provide tracking numbers or customer support to build credibility.\non the dark web, marketplaces like hydra and others operate like e-commerce platforms where users can leave reviews, rate vendors, and make secure payments. these platforms are hidden behind layers of encryption and require tor browsers to access. vendors build reputations by delivering consistent quality and stealth packaging, often shipping substances in vacuum-sealed containers, disguised as harmless products.\nto protect themselves, traffickers use burner phones, anonymous accounts, and rotating usernames. many use disposable delivery methods like dead drops, where drugs are hidden in public places and locations are shared with buyers after payment. communication is highly controlled, and any user that raises suspicion may be banned or blocked from the channel.\nauthorities use various strategies to identify and dismantle these networks, including ai-based monitoring tools, keyword tracking, image recognition, and undercover operations. however, the adaptability of traffickers poses a constant challenge. new slang and platforms emerge frequently, requiring continuous updates to detection algorithms.",
+        "text_label": "drug-related"
+    }
+]
